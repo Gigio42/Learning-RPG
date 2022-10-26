@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{a9343776-7d13-a496-0d36-0a5d97d59ffd}</ProjectGuid>
+    <ProjectGuid>{6969fabe-1268-b96d-45cd-3acaf80a6189}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.VisualStudio.Editor</AssemblyName>
@@ -331,11 +331,14 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
         <HintPath>C:\Users\gigio\OneDrive\Área de Trabalho\ETC\licenses\2021.3.5f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+        <HintPath>C:\Users\gigio\OneDrive\Área de Trabalho\ETC\licenses\2021.3.5f1\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>C:\Users\gigio\MyOwnGames\First RPG\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+        <HintPath>C:\Users\gigio\MyOwnGames\First RPG\Learning-RPG\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>C:\Users\gigio\MyOwnGames\First RPG\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+        <HintPath>C:\Users\gigio\MyOwnGames\First RPG\Learning-RPG\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>C:\Users\gigio\OneDrive\Área de Trabalho\ETC\licenses\2021.3.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
@@ -715,19 +718,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{64d694d4-2293-1d42-8e0a-f33b02078443}</Project>
+      <Project>{515a34f2-878d-bbdc-67c0-4e328732618c}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{85e7ed2e-e831-2abe-2697-c4e274d5c156}</Project>
+      <Project>{d4025350-7913-7765-fe30-31022d34981a}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{18983c37-cbd1-b6d1-de14-cd4868638686}</Project>
+      <Project>{6b57cbf1-f494-c2d5-622c-5b7097681c13}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{f9988fa0-1996-ce02-44fa-6ff70fb05bfb}</Project>
+      <Project>{13c280a3-b551-8849-a023-9236d9b1e07b}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
