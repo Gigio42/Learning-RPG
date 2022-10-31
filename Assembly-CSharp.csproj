@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Combat\Fighter.cs" />
+     <Compile Include="Assets\Scripts\Control\AIcontroller.cs" />
      <Compile Include="Assets\Scripts\Combat\CombatTarget.cs" />
      <Compile Include="Assets\Scripts\Movement\Mover.cs" />
      <Compile Include="Assets\Scripts\Core\IAction.cs" />
@@ -44,7 +45,6 @@
      <Compile Include="Assets\Scripts\Core\FollowCamera.cs" />
      <Compile Include="Assets\Scripts\Combat\Health.cs" />
      <Compile Include="Assets\Scripts\Control\PlayerControler.cs" />
-     <Compile Include="Assets\Scripts\Control\AIcontroller.cs" />
      <None Include="Assets\Asset Packs\Synty - Polygon Student Sample\README - Usage Rights for these assets.txt" />
      <None Include="Assets\Asset Packs\Animations by Explosive\README - Usage Rights for these assets 1.txt" />
     <Reference Include="UnityEngine">
@@ -691,6 +691,10 @@
       <Project>{6969fabe-1268-b96d-45cd-3acaf80a6189}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Sysroot.Linux_x86_64.csproj">
+      <Project>{56f3494c-f952-ace1-4fbc-b2c8a6d7e351}</Project>
+      <Name>Unity.Sysroot.Linux_x86_64</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{e67705f0-b01d-fcca-bb86-8d2bbf68da21}</Project>
       <Name>Unity.Timeline</Name>
@@ -735,17 +739,17 @@
       <Project>{d4025350-7913-7765-fe30-31022d34981a}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{efba916a-3d8d-d914-052a-c008fb33640a}</Project>
-      <Name>Unity.Services.Core</Name>
+    <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
+      <Project>{90eead07-f329-5b14-1da6-1d8fcdad5be3}</Project>
+      <Name>Unity.EditorCoroutines.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
       <Project>{f5571b51-dffd-5a02-64fe-cf8e9cd903be}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
-      <Project>{90eead07-f329-5b14-1da6-1d8fcdad5be3}</Project>
-      <Name>Unity.EditorCoroutines.Editor</Name>
+    <ProjectReference Include="Unity.Services.Core.csproj">
+      <Project>{efba916a-3d8d-d914-052a-c008fb33640a}</Project>
+      <Name>Unity.Services.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
       <Project>{046e35f8-187e-79ba-92bf-677ee0ca0122}</Project>
@@ -759,6 +763,10 @@
       <Project>{2f504e96-481a-10a4-4e2a-1689b5dc96c3}</Project>
       <Name>Unity.Services.Core.Environments</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64.csproj">
+      <Project>{6338c202-e5db-9792-9e95-0b822a267d08}</Project>
+      <Name>Unity.Toolchain.Win-x86_64-Linux-x86_64</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
       <Project>{cf08a608-7089-50ae-3f36-8736827066a4}</Project>
       <Name>Unity.Timeline.Editor</Name>
@@ -770,14 +778,6 @@
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{5d8926c5-99bc-a900-0457-29fa2e6ccd83}</Project>
       <Name>Unity.VisualScripting.State</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Sysroot.Linux_x86_64.csproj">
-      <Project>{56f3494c-f952-ace1-4fbc-b2c8a6d7e351}</Project>
-      <Name>Unity.Sysroot.Linux_x86_64</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64.csproj">
-      <Project>{6338c202-e5db-9792-9e95-0b822a267d08}</Project>
-      <Name>Unity.Toolchain.Win-x86_64-Linux-x86_64</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.SysrootPackage.Editor.csproj">
       <Project>{e6489427-d26e-a116-0c99-d36719e14410}</Project>
