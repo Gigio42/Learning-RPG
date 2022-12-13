@@ -22,7 +22,7 @@ namespace RPG.Control
 
             if (InteractWithCombat()) return;
             if (InteractWithMovement()) return;
-            print("Out of limits");   
+            //print("Out of limits");   
         }
 
         private bool InteractWithCombat()
