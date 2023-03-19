@@ -10,7 +10,7 @@ scopes = {
 	"last_search.DE949528" = "lighting"
 	"OpenInspectorPreview.DE949528" = "0"
 	"currentGroup.DE949528" = "menu"
-	"last_search.DA949528" = "IsAlive"
+	"last_search.DA949528" = "fade"
 	"OpenInspectorPreview.DA949528" = "0"
 	"currentGroup.DA949528" = "all"
 }
@@ -59,6 +59,7 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"f"
 ]
 searchItemFavorites = [
 ]

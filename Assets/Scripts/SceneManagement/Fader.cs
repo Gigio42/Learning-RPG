@@ -1,20 +1,17 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.AI;
 
 namespace RPG.SceneManagement
 {
-    public class Fader : MonoBehaviour 
+    public class Fader : MonoBehaviour
     {
         CanvasGroup canvasGroup;
 
-        private void Start()
-        {
+        private void Awake() {
             canvasGroup = GetComponent<CanvasGroup>();
         }
 
-        public void FadeOutImediate()
+        public void FadeOutImmediate()
         {
             canvasGroup.alpha = 1;
         }
