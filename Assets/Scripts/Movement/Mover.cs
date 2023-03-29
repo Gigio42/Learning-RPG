@@ -20,11 +20,6 @@ namespace RPG.Movement
             health = GetComponent<Health>();
         }
 
-        private void Start() 
-        {
-            
-        }
-
         void Update()
         {
             nma.enabled = !health.IsDead();
