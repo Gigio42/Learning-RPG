@@ -6784,50 +6784,6 @@ PrefabInstance:
       propertyPath: levelUpParticleEffect
       value: 
       objectReference: {fileID: 3984018382876208116, guid: 4311ddbe3c50c034e8c3b0204e593e51, type: 3}
-    - target: {fileID: 1935211465541798066, guid: 3f3d085f3319a10439f7c10741ba8978, type: 3}
-      propertyPath: cursorMappings.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1935211465541798066, guid: 3f3d085f3319a10439f7c10741ba8978, type: 3}
-      propertyPath: cursorMappings.Array.data[0].type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1935211465541798066, guid: 3f3d085f3319a10439f7c10741ba8978, type: 3}
-      propertyPath: cursorMappings.Array.data[1].type
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1935211465541798066, guid: 3f3d085f3319a10439f7c10741ba8978, type: 3}
-      propertyPath: cursorMappings.Array.data[2].type
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1935211465541798066, guid: 3f3d085f3319a10439f7c10741ba8978, type: 3}
-      propertyPath: cursorMappings.Array.data[3].type
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1935211465541798066, guid: 3f3d085f3319a10439f7c10741ba8978, type: 3}
-      propertyPath: cursorMappings.Array.data[4].type
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1935211465541798066, guid: 3f3d085f3319a10439f7c10741ba8978, type: 3}
-      propertyPath: cursorMappings.Array.data[0].texture
-      value: 
-      objectReference: {fileID: 2800000, guid: 21628736160fcc9488493401da3ef621, type: 3}
-    - target: {fileID: 1935211465541798066, guid: 3f3d085f3319a10439f7c10741ba8978, type: 3}
-      propertyPath: cursorMappings.Array.data[1].texture
-      value: 
-      objectReference: {fileID: 2800000, guid: 8859fce41c5d0a148ad0b7eebfca7fe9, type: 3}
-    - target: {fileID: 1935211465541798066, guid: 3f3d085f3319a10439f7c10741ba8978, type: 3}
-      propertyPath: cursorMappings.Array.data[2].texture
-      value: 
-      objectReference: {fileID: 2800000, guid: 2d18e23e3ce249b4489b8bcdd02d3f48, type: 3}
-    - target: {fileID: 1935211465541798066, guid: 3f3d085f3319a10439f7c10741ba8978, type: 3}
-      propertyPath: cursorMappings.Array.data[3].texture
-      value: 
-      objectReference: {fileID: 2800000, guid: 2e71a8202d3b4a3448ec85ced5a40265, type: 3}
-    - target: {fileID: 1935211465541798066, guid: 3f3d085f3319a10439f7c10741ba8978, type: 3}
-      propertyPath: cursorMappings.Array.data[4].texture
-      value: 
-      objectReference: {fileID: 2800000, guid: f8c873f1e53e83f4aabf342d6be1dfc3, type: 3}
     - target: {fileID: 2868642461638923721, guid: 3f3d085f3319a10439f7c10741ba8978, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
